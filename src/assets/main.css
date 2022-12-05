@@ -1,0 +1,28 @@
+/* CSS init begin */
+*{/*把所有标签的内外边距取消掉*/
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{/*去掉ul的小圆点*/
+  list-style: none;
+}
+
+body{/*把主体设为统一格式*/
+  font-family: "微软雅黑";
+  color:#565555 ;
+}
+
+a{/*改变a链接的默认格式，颜色和下划线*/
+  color: #716f70;
+  text-decoration: none;
+}
+
+a.hover{/*改变鼠标经过颜色*/
+  color: skyblue;
+}
+/* CSS init end */
+
+#app {
+  width: 100%;
+}
